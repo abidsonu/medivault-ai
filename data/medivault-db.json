@@ -1,0 +1,1217 @@
+{
+  "familyMembers": [
+    {
+      "id": "fam_1",
+      "name": "Alex Morgan",
+      "relationship": "Self",
+      "age": 34,
+      "dob": "1992-05-14",
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "heightCm": 168,
+      "weightKg": 64,
+      "emergencyContact": {
+        "name": "David Morgan",
+        "relationship": "Spouse",
+        "phone": "+1 (555) 234-5678"
+      },
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "chronicConditions": [
+        "Mild Asthma",
+        "Borderline Dyslipidemia"
+      ],
+      "avatarUrl": "/src/assets/images/avatar_alex_morgan_1793892776943.jpg"
+    },
+    {
+      "id": "fam_2",
+      "name": "Sarah Morgan",
+      "relationship": "Parent",
+      "age": 62,
+      "dob": "1964-09-20",
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "heightCm": 160,
+      "weightKg": 68,
+      "emergencyContact": {
+        "name": "Alex Morgan",
+        "relationship": "Daughter",
+        "phone": "+1 (555) 345-6789"
+      },
+      "allergies": [
+        "Aspirin"
+      ],
+      "chronicConditions": [
+        "Type 2 Diabetes",
+        "Hypertension"
+      ]
+    },
+    {
+      "id": "fam_3",
+      "name": "Leo Morgan",
+      "relationship": "Child",
+      "age": 7,
+      "dob": "2019-11-03",
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "heightCm": 122,
+      "weightKg": 24,
+      "emergencyContact": {
+        "name": "Alex Morgan",
+        "relationship": "Mother",
+        "phone": "+1 (555) 234-5678"
+      },
+      "allergies": [
+        "Peanuts"
+      ],
+      "chronicConditions": []
+    }
+  ],
+  "activeMemberId": "fam_1",
+  "documents": [
+    {
+      "id": "doc_1793893728087",
+      "familyMemberId": "fam_1",
+      "title": "Lipid Profile & Glucose Evaluation",
+      "category": "Lipid Profile",
+      "hospital": "Metro Health Diagnostic Center",
+      "testDate": "2026-11-02",
+      "uploadDate": "2026-11-05",
+      "doctorName": "Dr. Elena Vance",
+      "notes": "Annual routine fasting blood sample. 12-hour overnight fast.",
+      "tags": [
+        "Lipid",
+        "Fasting",
+        "Cholesterol",
+        "Wellness"
+      ],
+      "fileType": "jpg",
+      "fileSize": "1.2 MB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": false
+    },
+    {
+      "id": "doc_1793893716928",
+      "familyMemberId": "fam_1",
+      "title": "Lipid Profile & Glucose Evaluation",
+      "category": "Lipid Profile",
+      "hospital": "Metro Health Diagnostic Center",
+      "testDate": "2026-11-02",
+      "uploadDate": "2026-11-05",
+      "doctorName": "Dr. Elena Vance",
+      "notes": "Annual routine fasting blood sample. 12-hour overnight fast.",
+      "tags": [
+        "Lipid",
+        "Fasting",
+        "Cholesterol",
+        "Wellness"
+      ],
+      "fileType": "jpg",
+      "fileSize": "1.2 MB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": false
+    },
+    {
+      "id": "doc_cbc_1",
+      "familyMemberId": "fam_1",
+      "title": "Complete Blood Count (CBC) - Routine Annual",
+      "category": "CBC",
+      "hospital": "Apex Diagnostic Labs",
+      "testDate": "2026-01-15",
+      "uploadDate": "2026-01-16",
+      "doctorName": "Dr. Michael Chen",
+      "notes": "Annual routine health checkup. Felt mild afternoon fatigue.",
+      "tags": [
+        "CBC",
+        "Hemoglobin",
+        "Annual",
+        "Routine"
+      ],
+      "fileType": "jpg",
+      "fileSize": "1.4 MB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true,
+      "extractedReportId": "rep_cbc_1"
+    },
+    {
+      "id": "doc_cbc_2",
+      "familyMemberId": "fam_1",
+      "title": "Complete Blood Count (CBC) - 3-Month Follow-up",
+      "category": "CBC",
+      "hospital": "Apex Diagnostic Labs",
+      "testDate": "2026-04-22",
+      "uploadDate": "2026-04-23",
+      "doctorName": "Dr. Michael Chen",
+      "notes": "Monitoring iron levels after dietary modifications and oral iron supplement.",
+      "tags": [
+        "CBC",
+        "Iron Follow-up",
+        "Post-supplement"
+      ],
+      "fileType": "pdf",
+      "fileSize": "820 KB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true,
+      "extractedReportId": "rep_cbc_2"
+    },
+    {
+      "id": "doc_cbc_3",
+      "familyMemberId": "fam_1",
+      "title": "Complete Blood Count (CBC) - Mid-Year Evaluation",
+      "category": "CBC",
+      "hospital": "Metro Health Diagnostics",
+      "testDate": "2026-08-10",
+      "uploadDate": "2026-08-11",
+      "doctorName": "Dr. Elena Vance",
+      "notes": "Pre-consultation lab panel. Hemoglobin significantly recovered.",
+      "tags": [
+        "CBC",
+        "Recovery",
+        "Mid-Year"
+      ],
+      "fileType": "jpg",
+      "fileSize": "1.2 MB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true,
+      "extractedReportId": "rep_cbc_3"
+    },
+    {
+      "id": "doc_lipid_1",
+      "familyMemberId": "fam_1",
+      "title": "Comprehensive Lipid & Cholesterol Profile",
+      "category": "Lipid Profile",
+      "hospital": "City Central Health Clinic",
+      "testDate": "2026-02-18",
+      "uploadDate": "2026-02-19",
+      "doctorName": "Dr. Elena Vance",
+      "notes": "Fasting 12 hours. Borderline LDL detected.",
+      "tags": [
+        "Lipid",
+        "Cholesterol",
+        "Cardio",
+        "Fasting"
+      ],
+      "fileType": "pdf",
+      "fileSize": "950 KB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true,
+      "extractedReportId": "rep_lipid_1"
+    },
+    {
+      "id": "doc_lipid_2",
+      "familyMemberId": "fam_1",
+      "title": "Follow-up Lipid Panel & Triglycerides",
+      "category": "Lipid Profile",
+      "hospital": "City Central Health Clinic",
+      "testDate": "2026-07-28",
+      "uploadDate": "2026-07-29",
+      "doctorName": "Dr. Elena Vance",
+      "notes": "Re-evaluation after lifestyle adjustments and Atorvastatin 10mg.",
+      "tags": [
+        "Lipid",
+        "Atorvastatin",
+        "Cholesterol Check"
+      ],
+      "fileType": "jpg",
+      "fileSize": "1.1 MB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true,
+      "extractedReportId": "rep_lipid_2"
+    },
+    {
+      "id": "doc_thyroid_1",
+      "familyMemberId": "fam_1",
+      "title": "Thyroid Function Test (TSH, Free T3, Free T4)",
+      "category": "Thyroid Panel",
+      "hospital": "Metro Health Diagnostics",
+      "testDate": "2026-03-05",
+      "uploadDate": "2026-03-06",
+      "doctorName": "Dr. Michael Chen",
+      "notes": "Thyroid screen for fatigue workup. All within euthyroid reference range.",
+      "tags": [
+        "Thyroid",
+        "TSH",
+        "Hormones"
+      ],
+      "fileType": "pdf",
+      "fileSize": "650 KB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true,
+      "extractedReportId": "rep_thyroid_1"
+    },
+    {
+      "id": "doc_rx_1",
+      "familyMemberId": "fam_1",
+      "title": "Cardiovascular & Metabolic Prescription",
+      "category": "Doctor Prescription",
+      "hospital": "City Central Health Clinic",
+      "testDate": "2026-03-10",
+      "uploadDate": "2026-03-10",
+      "doctorName": "Dr. Elena Vance",
+      "notes": "Prescription for lipid management and Vitamin D repletion.",
+      "tags": [
+        "Prescription",
+        "Cardiology",
+        "Vitamins"
+      ],
+      "fileType": "jpg",
+      "fileSize": "1.8 MB",
+      "fileUrl": "/src/assets/images/sample_lab_report_1793892778141.jpg",
+      "isAnalyzed": true
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_cbc_1",
+      "documentId": "doc_cbc_1",
+      "familyMemberId": "fam_1",
+      "reportType": "Complete Blood Count (Automated Hematology)",
+      "hospital": "Apex Diagnostic Labs",
+      "testDate": "2026-01-15",
+      "testCategory": "CBC",
+      "analyzedAt": "2026-01-16T10:14:00Z",
+      "summary": {
+        "testType": "Complete Blood Count (CBC)",
+        "whyConducted": "Evaluates overall cellular health and screens for anemia, infection, and immune or clotting disorders.",
+        "mainFindings": "Hemoglobin and Hematocrit are mildly below stated lab reference ranges, indicating mild microcytic anemia. White blood cells and platelets remain nominal.",
+        "withinRangeCount": 7,
+        "outsideRangeCount": 2,
+        "healthSummary": "The test reveals mild anemia (Hemoglobin 11.2 g/dL vs lab baseline min 12.0 g/dL). Discuss nutritional iron support or ferritin testing with your doctor.",
+        "doctorQuestions": [
+          "Would you recommend checking serum ferritin and iron saturation levels?",
+          "Should I begin oral iron supplementation or focus on dietary adjustments?",
+          "When should we repeat the CBC to evaluate recovery?"
+        ]
+      },
+      "tests": [
+        {
+          "name": "Hemoglobin (Hb)",
+          "result": "11.2",
+          "numValue": 11.2,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "minRef": 12,
+          "maxRef": 15.5,
+          "status": "abnormal",
+          "explanation": "Hemoglobin is the oxygen-carrying protein inside red blood cells. A value below 12.0 g/dL indicates mild anemia.",
+          "possibleReasons": "Nutritional iron deficiency, heavy menstrual cycles, or recent blood loss.",
+          "discussionAdvice": "Ask your doctor about iron absorption and follow-up CBC."
+        },
+        {
+          "name": "Hematocrit (PCV)",
+          "result": "34.5",
+          "numValue": 34.5,
+          "unit": "%",
+          "referenceRange": "36.0 - 46.0",
+          "minRef": 36,
+          "maxRef": 46,
+          "status": "abnormal",
+          "explanation": "Hematocrit measures the percentage of whole blood made up of red blood cells.",
+          "possibleReasons": "Parallels the low hemoglobin reading, characteristic of mild anemia.",
+          "discussionAdvice": "Compare alongside RBC indices."
+        },
+        {
+          "name": "Total RBC Count",
+          "result": "4.1",
+          "numValue": 4.1,
+          "unit": "million/mcL",
+          "referenceRange": "3.9 - 5.2",
+          "minRef": 3.9,
+          "maxRef": 5.2,
+          "status": "normal",
+          "explanation": "Total number of red blood cells circulating in the blood."
+        },
+        {
+          "name": "White Blood Cell (WBC)",
+          "result": "6.4",
+          "numValue": 6.4,
+          "unit": "x10^3/mcL",
+          "referenceRange": "4.5 - 11.0",
+          "minRef": 4.5,
+          "maxRef": 11,
+          "status": "normal",
+          "explanation": "Infection and immune response cells."
+        },
+        {
+          "name": "Platelet Count",
+          "result": "245",
+          "numValue": 245,
+          "unit": "x10^3/mcL",
+          "referenceRange": "150 - 450",
+          "minRef": 150,
+          "maxRef": 450,
+          "status": "normal",
+          "explanation": "Essential for blood clotting and wound repair."
+        },
+        {
+          "name": "MCV (Mean Corpuscular Volume)",
+          "result": "78.2",
+          "numValue": 78.2,
+          "unit": "fL",
+          "referenceRange": "80.0 - 100.0",
+          "minRef": 80,
+          "maxRef": 100,
+          "status": "borderline",
+          "explanation": "Average size of red blood cells. Slightly low indicates microcytosis."
+        },
+        {
+          "name": "MCH",
+          "result": "26.8",
+          "numValue": 26.8,
+          "unit": "pg",
+          "referenceRange": "27.0 - 33.0",
+          "minRef": 27,
+          "maxRef": 33,
+          "status": "borderline",
+          "explanation": "Average amount of hemoglobin per red blood cell."
+        },
+        {
+          "name": "Neutrophils",
+          "result": "58",
+          "numValue": 58,
+          "unit": "%",
+          "referenceRange": "40 - 70",
+          "minRef": 40,
+          "maxRef": 70,
+          "status": "normal",
+          "explanation": "Primary bacterial defense white cells."
+        },
+        {
+          "name": "Lymphocytes",
+          "result": "32",
+          "numValue": 32,
+          "unit": "%",
+          "referenceRange": "20 - 45",
+          "minRef": 20,
+          "maxRef": 45,
+          "status": "normal",
+          "explanation": "Viral defense and antibody producing cells."
+        }
+      ]
+    },
+    {
+      "id": "rep_cbc_2",
+      "documentId": "doc_cbc_2",
+      "familyMemberId": "fam_1",
+      "reportType": "Complete Blood Count (Automated Hematology)",
+      "hospital": "Apex Diagnostic Labs",
+      "testDate": "2026-04-22",
+      "testCategory": "CBC",
+      "analyzedAt": "2026-04-23T11:20:00Z",
+      "summary": {
+        "testType": "Complete Blood Count (CBC)",
+        "whyConducted": "Follow-up assessment after 12 weeks of oral iron therapy.",
+        "mainFindings": "Hemoglobin has risen from 11.2 g/dL to 12.6 g/dL, entering the normal reference range. MCV and Hematocrit have also normalized.",
+        "withinRangeCount": 9,
+        "outsideRangeCount": 0,
+        "healthSummary": "Excellent response to therapy. Red blood cell parameters show positive upward trajectory with all values returning into reference bounds.",
+        "doctorQuestions": [
+          "Should I continue the current maintenance dose of iron?",
+          "Can we schedule the next routine check for 6 months?"
+        ]
+      },
+      "tests": [
+        {
+          "name": "Hemoglobin (Hb)",
+          "result": "12.6",
+          "numValue": 12.6,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "minRef": 12,
+          "maxRef": 15.5,
+          "status": "normal",
+          "explanation": "Hemoglobin is now fully within the healthy reference range (+1.4 g/dL gain)."
+        },
+        {
+          "name": "Hematocrit (PCV)",
+          "result": "38.2",
+          "numValue": 38.2,
+          "unit": "%",
+          "referenceRange": "36.0 - 46.0",
+          "minRef": 36,
+          "maxRef": 46,
+          "status": "normal",
+          "explanation": "Returned to nominal baseline."
+        },
+        {
+          "name": "Total RBC Count",
+          "result": "4.4",
+          "numValue": 4.4,
+          "unit": "million/mcL",
+          "referenceRange": "3.9 - 5.2",
+          "minRef": 3.9,
+          "maxRef": 5.2,
+          "status": "normal",
+          "explanation": "Nominal red blood cell count."
+        },
+        {
+          "name": "White Blood Cell (WBC)",
+          "result": "6.8",
+          "numValue": 6.8,
+          "unit": "x10^3/mcL",
+          "referenceRange": "4.5 - 11.0",
+          "minRef": 4.5,
+          "maxRef": 11,
+          "status": "normal",
+          "explanation": "Normal white blood cell count."
+        },
+        {
+          "name": "Platelet Count",
+          "result": "260",
+          "numValue": 260,
+          "unit": "x10^3/mcL",
+          "referenceRange": "150 - 450",
+          "minRef": 150,
+          "maxRef": 450,
+          "status": "normal",
+          "explanation": "Normal clotting cell population."
+        },
+        {
+          "name": "MCV (Mean Corpuscular Volume)",
+          "result": "84.1",
+          "numValue": 84.1,
+          "unit": "fL",
+          "referenceRange": "80.0 - 100.0",
+          "minRef": 80,
+          "maxRef": 100,
+          "status": "normal",
+          "explanation": "Red blood cell volume normalized."
+        },
+        {
+          "name": "MCH",
+          "result": "28.9",
+          "numValue": 28.9,
+          "unit": "pg",
+          "referenceRange": "27.0 - 33.0",
+          "minRef": 27,
+          "maxRef": 33,
+          "status": "normal",
+          "explanation": "Nominal cellular hemoglobin content."
+        },
+        {
+          "name": "Neutrophils",
+          "result": "61",
+          "numValue": 61,
+          "unit": "%",
+          "referenceRange": "40 - 70",
+          "minRef": 40,
+          "maxRef": 70,
+          "status": "normal",
+          "explanation": "Normal neutrophil distribution."
+        },
+        {
+          "name": "Lymphocytes",
+          "result": "30",
+          "numValue": 30,
+          "unit": "%",
+          "referenceRange": "20 - 45",
+          "minRef": 20,
+          "maxRef": 45,
+          "status": "normal",
+          "explanation": "Normal lymphocyte count."
+        }
+      ]
+    },
+    {
+      "id": "rep_cbc_3",
+      "documentId": "doc_cbc_3",
+      "familyMemberId": "fam_1",
+      "reportType": "Complete Blood Count (Automated Hematology)",
+      "hospital": "Metro Health Diagnostics",
+      "testDate": "2026-08-10",
+      "testCategory": "CBC",
+      "analyzedAt": "2026-08-11T09:40:00Z",
+      "summary": {
+        "testType": "Complete Blood Count (CBC)",
+        "whyConducted": "Routine semi-annual wellness and hematologic stability review.",
+        "mainFindings": "All hematology markers stable and optimal. Hemoglobin is at 13.4 g/dL with robust iron store indicators.",
+        "withinRangeCount": 9,
+        "outsideRangeCount": 0,
+        "healthSummary": "Complete stabilization of red cell parameters. High sustained energy reported.",
+        "doctorQuestions": [
+          "Confirming that dietary iron intake alone is sufficient going forward."
+        ]
+      },
+      "tests": [
+        {
+          "name": "Hemoglobin (Hb)",
+          "result": "13.4",
+          "numValue": 13.4,
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.5",
+          "minRef": 12,
+          "maxRef": 15.5,
+          "status": "normal",
+          "explanation": "Strong, stable hemoglobin level in the upper-mid normal tier."
+        },
+        {
+          "name": "Hematocrit (PCV)",
+          "result": "40.6",
+          "numValue": 40.6,
+          "unit": "%",
+          "referenceRange": "36.0 - 46.0",
+          "minRef": 36,
+          "maxRef": 46,
+          "status": "normal",
+          "explanation": "Optimal red blood cell volume proportion."
+        },
+        {
+          "name": "Total RBC Count",
+          "result": "4.6",
+          "numValue": 4.6,
+          "unit": "million/mcL",
+          "referenceRange": "3.9 - 5.2",
+          "minRef": 3.9,
+          "maxRef": 5.2,
+          "status": "normal",
+          "explanation": "Optimal red blood cell count."
+        },
+        {
+          "name": "White Blood Cell (WBC)",
+          "result": "7.1",
+          "numValue": 7.1,
+          "unit": "x10^3/mcL",
+          "referenceRange": "4.5 - 11.0",
+          "minRef": 4.5,
+          "maxRef": 11,
+          "status": "normal",
+          "explanation": "Nominal leukocyte concentration."
+        },
+        {
+          "name": "Platelet Count",
+          "result": "252",
+          "numValue": 252,
+          "unit": "x10^3/mcL",
+          "referenceRange": "150 - 450",
+          "minRef": 150,
+          "maxRef": 450,
+          "status": "normal",
+          "explanation": "Optimal platelet level."
+        },
+        {
+          "name": "MCV (Mean Corpuscular Volume)",
+          "result": "88.3",
+          "numValue": 88.3,
+          "unit": "fL",
+          "referenceRange": "80.0 - 100.0",
+          "minRef": 80,
+          "maxRef": 100,
+          "status": "normal",
+          "explanation": "Healthy mature RBC size."
+        },
+        {
+          "name": "MCH",
+          "result": "29.7",
+          "numValue": 29.7,
+          "unit": "pg",
+          "referenceRange": "27.0 - 33.0",
+          "minRef": 27,
+          "maxRef": 33,
+          "status": "normal",
+          "explanation": "Healthy hemoglobin concentration per cell."
+        },
+        {
+          "name": "Neutrophils",
+          "result": "59",
+          "numValue": 59,
+          "unit": "%",
+          "referenceRange": "40 - 70",
+          "minRef": 40,
+          "maxRef": 70,
+          "status": "normal",
+          "explanation": "Nominal neutrophil percentage."
+        },
+        {
+          "name": "Lymphocytes",
+          "result": "31",
+          "numValue": 31,
+          "unit": "%",
+          "referenceRange": "20 - 45",
+          "minRef": 20,
+          "maxRef": 45,
+          "status": "normal",
+          "explanation": "Nominal lymphocyte percentage."
+        }
+      ]
+    },
+    {
+      "id": "rep_lipid_1",
+      "documentId": "doc_lipid_1",
+      "familyMemberId": "fam_1",
+      "reportType": "Lipid Profile (Fasting Serum)",
+      "hospital": "City Central Health Clinic",
+      "testDate": "2026-02-18",
+      "testCategory": "Lipid Profile",
+      "analyzedAt": "2026-02-19T14:15:00Z",
+      "summary": {
+        "testType": "Lipid Profile",
+        "whyConducted": "Assesses cardiovascular risk by analyzing cholesterol subtypes and triglycerides.",
+        "mainFindings": "Total Cholesterol and LDL Cholesterol are elevated above recommended thresholds. HDL is within optimal range.",
+        "withinRangeCount": 2,
+        "outsideRangeCount": 2,
+        "healthSummary": "Mild hypercholesterolemia identified (Total Cholesterol 228 mg/dL, LDL 148 mg/dL). Discuss cardiovascular risk scoring and dietary modifications with your physician.",
+        "doctorQuestions": [
+          "What is my 10-year ASCVD risk category based on these results?",
+          "Would you recommend initiating a low-dose statin or a trial of Mediterranean diet and exercise first?"
+        ]
+      },
+      "tests": [
+        {
+          "name": "Total Cholesterol",
+          "result": "228",
+          "numValue": 228,
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "maxRef": 200,
+          "status": "abnormal",
+          "explanation": "Total circulating cholesterol in the blood. Levels above 200 mg/dL indicate borderline high risk.",
+          "possibleReasons": "Saturated fat intake, genetics, or reduced metabolic clearance.",
+          "discussionAdvice": "Review cardiovascular prevention strategies."
+        },
+        {
+          "name": "LDL Cholesterol (Calculated)",
+          "result": "148",
+          "numValue": 148,
+          "unit": "mg/dL",
+          "referenceRange": "< 100",
+          "maxRef": 100,
+          "status": "abnormal",
+          "explanation": "Low-density lipoprotein (\"bad\" cholesterol). Contributes to arterial plaque buildup.",
+          "possibleReasons": "Dietary factors, sedentary lifestyle, or familial tendency.",
+          "discussionAdvice": "Target level is below 100 mg/dL (or below 70 mg/dL if high risk)."
+        },
+        {
+          "name": "HDL Cholesterol",
+          "result": "56",
+          "numValue": 56,
+          "unit": "mg/dL",
+          "referenceRange": "> 50",
+          "minRef": 50,
+          "status": "normal",
+          "explanation": "High-density lipoprotein (\"good\" cholesterol). Transports cholesterol away from arteries."
+        },
+        {
+          "name": "Triglycerides",
+          "result": "120",
+          "numValue": 120,
+          "unit": "mg/dL",
+          "referenceRange": "< 150",
+          "maxRef": 150,
+          "status": "normal",
+          "explanation": "Primary storage form of fat circulating in bloodstream."
+        }
+      ]
+    },
+    {
+      "id": "rep_lipid_2",
+      "documentId": "doc_lipid_2",
+      "familyMemberId": "fam_1",
+      "reportType": "Lipid Profile (Fasting Serum)",
+      "hospital": "City Central Health Clinic",
+      "testDate": "2026-07-28",
+      "testCategory": "Lipid Profile",
+      "analyzedAt": "2026-07-29T16:00:00Z",
+      "summary": {
+        "testType": "Lipid Profile",
+        "whyConducted": "Re-evaluation after 4 months of Atorvastatin 10mg daily and dietary changes.",
+        "mainFindings": "Significant improvement across all lipid markers. Total Cholesterol dropped to 178 mg/dL (-21.9%), and LDL reduced to 96 mg/dL (-35.1%).",
+        "withinRangeCount": 4,
+        "outsideRangeCount": 0,
+        "healthSummary": "Excellent lipid control achieved. Both Total Cholesterol and LDL have transitioned from abnormal to safely within optimal target ranges.",
+        "doctorQuestions": [
+          "Should we maintain the current Atorvastatin 10mg dose indefinitely?",
+          "Are there any liver enzyme monitoring requirements while on this regimen?"
+        ]
+      },
+      "tests": [
+        {
+          "name": "Total Cholesterol",
+          "result": "178",
+          "numValue": 178,
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "maxRef": 200,
+          "status": "normal",
+          "explanation": "Total cholesterol normalized (-50 mg/dL decrease)."
+        },
+        {
+          "name": "LDL Cholesterol (Calculated)",
+          "result": "96",
+          "numValue": 96,
+          "unit": "mg/dL",
+          "referenceRange": "< 100",
+          "maxRef": 100,
+          "status": "normal",
+          "explanation": "Target LDL (< 100 mg/dL) successfully achieved with medication."
+        },
+        {
+          "name": "HDL Cholesterol",
+          "result": "60",
+          "numValue": 60,
+          "unit": "mg/dL",
+          "referenceRange": "> 50",
+          "minRef": 50,
+          "status": "normal",
+          "explanation": "Protective HDL increased slightly."
+        },
+        {
+          "name": "Triglycerides",
+          "result": "110",
+          "numValue": 110,
+          "unit": "mg/dL",
+          "referenceRange": "< 150",
+          "maxRef": 150,
+          "status": "normal",
+          "explanation": "Triglycerides well within normal fasting limit."
+        }
+      ]
+    },
+    {
+      "id": "rep_thyroid_1",
+      "documentId": "doc_thyroid_1",
+      "familyMemberId": "fam_1",
+      "reportType": "Thyroid Function Test (CLIA Immunoassay)",
+      "hospital": "Metro Health Diagnostics",
+      "testDate": "2026-03-05",
+      "testCategory": "Thyroid Panel",
+      "analyzedAt": "2026-03-06T12:00:00Z",
+      "summary": {
+        "testType": "Thyroid Panel",
+        "whyConducted": "Investigates thyroid gland hormone secretion to rule out hypothyroidism or hyperthyroidism.",
+        "mainFindings": "All three thyroid hormones (TSH, FT3, FT4) are squarely in normal euthyroid reference ranges.",
+        "withinRangeCount": 3,
+        "outsideRangeCount": 0,
+        "healthSummary": "Thyroid function is fully normal. No endocrine disorder detected.",
+        "doctorQuestions": [
+          "Confirming that thyroid etiology is excluded for symptoms of fatigue."
+        ]
+      },
+      "tests": [
+        {
+          "name": "TSH (Thyroid Stimulating Hormone)",
+          "result": "2.14",
+          "numValue": 2.14,
+          "unit": "uIU/mL",
+          "referenceRange": "0.40 - 4.20",
+          "minRef": 0.4,
+          "maxRef": 4.2,
+          "status": "normal",
+          "explanation": "Pituitary signal regulating thyroid hormone synthesis."
+        },
+        {
+          "name": "Free T3 (Triiodothyronine)",
+          "result": "3.1",
+          "numValue": 3.1,
+          "unit": "pg/mL",
+          "referenceRange": "2.3 - 4.2",
+          "minRef": 2.3,
+          "maxRef": 4.2,
+          "status": "normal",
+          "explanation": "Active unbound metabolic thyroid hormone."
+        },
+        {
+          "name": "Free T4 (Thyroxine)",
+          "result": "1.25",
+          "numValue": 1.25,
+          "unit": "ng/dL",
+          "referenceRange": "0.80 - 1.80",
+          "minRef": 0.8,
+          "maxRef": 1.8,
+          "status": "normal",
+          "explanation": "Primary prohormone produced by the thyroid gland."
+        }
+      ]
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx_1",
+      "familyMemberId": "fam_1",
+      "doctorName": "Dr. Elena Vance",
+      "hospital": "City Central Health Clinic",
+      "prescriptionDate": "2026-03-10",
+      "diagnosis": "Borderline Dyslipidemia and Hypovitaminosis D",
+      "medicines": [
+        {
+          "name": "Atorvastatin",
+          "genericName": "Atorvastatin Calcium",
+          "dosage": "10 mg",
+          "frequency": "Once daily at bedtime",
+          "duration": "6 months",
+          "instructions": "Take 1 tablet at night after food. Avoid grapefruit juice.",
+          "timing": [
+            "Bedtime"
+          ]
+        },
+        {
+          "name": "Vitamin D3 (Cholecalciferol)",
+          "genericName": "Cholecalciferol",
+          "dosage": "60,000 IU",
+          "frequency": "Once weekly",
+          "duration": "8 weeks",
+          "instructions": "Take 1 capsule every Sunday with a fatty meal or milk.",
+          "timing": [
+            "Morning"
+          ]
+        },
+        {
+          "name": "Omega-3 Fish Oil",
+          "genericName": "EPA / DHA Ethyl Esters",
+          "dosage": "1000 mg",
+          "frequency": "Once daily with lunch",
+          "duration": "Ongoing",
+          "instructions": "Take with food for cardiovascular support.",
+          "timing": [
+            "Afternoon"
+          ]
+        }
+      ],
+      "notes": "Schedule follow-up lipid panel in 4 months. Maintain low saturated fat diet."
+    },
+    {
+      "id": "rx_2",
+      "familyMemberId": "fam_1",
+      "doctorName": "Dr. Michael Chen",
+      "hospital": "Apex Diagnostic Clinic",
+      "prescriptionDate": "2026-01-18",
+      "diagnosis": "Mild Microcytic Anemia",
+      "medicines": [
+        {
+          "name": "Ferrous Ascorbate & Folic Acid",
+          "genericName": "Elemental Iron 100mg + Folic Acid 1.5mg",
+          "dosage": "100 mg",
+          "frequency": "Once daily before breakfast",
+          "duration": "90 days",
+          "instructions": "Take on an empty stomach with a glass of orange juice. Do not take with tea, coffee, or milk.",
+          "timing": [
+            "Morning"
+          ]
+        }
+      ],
+      "notes": "Completed 90-day course in April. Hemoglobin successfully normalized."
+    }
+  ],
+  "medicines": [
+    {
+      "id": "med_1",
+      "familyMemberId": "fam_1",
+      "name": "Atorvastatin",
+      "brandName": "Lipitor",
+      "genericName": "Atorvastatin Calcium",
+      "dosage": "10 mg",
+      "frequency": "Once daily at bedtime",
+      "startDate": "2026-03-11",
+      "prescribingDoctor": "Dr. Elena Vance",
+      "instructions": "Take 1 tablet at bedtime. Avoid grapefruit.",
+      "status": "active",
+      "timing": [
+        "Bedtime"
+      ],
+      "refillRemainingDoses": 18,
+      "refillAlertDays": 7,
+      "expiryDate": "2027-08-30",
+      "logs": [
+        {
+          "id": "log_1",
+          "date": "2026-11-04",
+          "timeSlot": "Bedtime",
+          "status": "taken",
+          "timestamp": "22:15"
+        },
+        {
+          "id": "log_2",
+          "date": "2026-11-05",
+          "timeSlot": "Bedtime",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "med_2",
+      "familyMemberId": "fam_1",
+      "name": "Omega-3 Marine Oil",
+      "brandName": "Nordic Cardio",
+      "genericName": "EPA/DHA 1000mg",
+      "dosage": "1000 mg",
+      "frequency": "Once daily",
+      "startDate": "2026-03-12",
+      "prescribingDoctor": "Dr. Elena Vance",
+      "instructions": "Take 1 softgel with lunch.",
+      "status": "active",
+      "timing": [
+        "Afternoon"
+      ],
+      "refillRemainingDoses": 24,
+      "refillAlertDays": 5,
+      "expiryDate": "2027-11-15",
+      "logs": [
+        {
+          "id": "log_3",
+          "date": "2026-11-04",
+          "timeSlot": "Afternoon",
+          "status": "taken",
+          "timestamp": "13:05"
+        },
+        {
+          "id": "log_4",
+          "date": "2026-11-05",
+          "timeSlot": "Afternoon",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "med_3",
+      "familyMemberId": "fam_1",
+      "name": "Vitamin D3 Cholecalciferol",
+      "brandName": "Calcirol Sachet",
+      "genericName": "Cholecalciferol 60k IU",
+      "dosage": "60,000 IU",
+      "frequency": "Once weekly (Sundays)",
+      "startDate": "2026-03-15",
+      "prescribingDoctor": "Dr. Elena Vance",
+      "instructions": "Mix with warm milk on Sunday mornings.",
+      "status": "active",
+      "timing": [
+        "Morning"
+      ],
+      "refillRemainingDoses": 4,
+      "refillAlertDays": 14,
+      "expiryDate": "2027-05-10",
+      "logs": [
+        {
+          "id": "log_5",
+          "date": "2026-11-01",
+          "timeSlot": "Morning",
+          "status": "taken",
+          "timestamp": "09:00"
+        }
+      ]
+    },
+    {
+      "id": "med_4",
+      "familyMemberId": "fam_1",
+      "name": "Ferrous Ascorbate",
+      "brandName": "Orofer XT",
+      "genericName": "Ferrous Ascorbate 100mg",
+      "dosage": "100 mg",
+      "frequency": "Once daily",
+      "startDate": "2026-01-18",
+      "endDate": "2026-04-20",
+      "prescribingDoctor": "Dr. Michael Chen",
+      "instructions": "Take before breakfast with citrus juice.",
+      "status": "discontinued",
+      "timing": [
+        "Morning"
+      ],
+      "logs": []
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc_1",
+      "name": "Dr. Elena Vance, MD, FACC",
+      "specialization": "Cardiology & Preventative Medicine",
+      "hospital": "City Central Health Clinic",
+      "contactNumber": "+1 (555) 782-9012",
+      "address": "Suite 400, 720 Lexington Ave, New York, NY",
+      "notes": "Focuses on early cardiovascular risk prevention and lipid optimization."
+    },
+    {
+      "id": "doc_2",
+      "name": "Dr. Michael Chen, MD",
+      "specialization": "Internal Medicine",
+      "hospital": "Apex Diagnostic & Wellness Clinic",
+      "contactNumber": "+1 (555) 438-1290",
+      "address": "88 West Medical Blvd, New York, NY",
+      "notes": "Primary care physician for routine annual checkups and hematology."
+    },
+    {
+      "id": "doc_3",
+      "name": "Dr. Sunita Sharma, MD",
+      "specialization": "Endocrinology & Diabetology",
+      "hospital": "Metro Health Endocrinology Center",
+      "contactNumber": "+1 (555) 671-8844",
+      "address": "350 Madison Ave, New York, NY",
+      "notes": "Consultant for Sarah Morgan (type 2 diabetes management)."
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_1",
+      "familyMemberId": "fam_1",
+      "doctorId": "doc_1",
+      "doctorName": "Dr. Elena Vance, MD, FACC",
+      "hospital": "City Central Health Clinic",
+      "date": "2026-11-18",
+      "time": "10:30 AM",
+      "purpose": "Cardiovascular 6-Month Statin & Lipid Follow-up",
+      "status": "upcoming",
+      "notes": "Review recent lipid test (Total Chol 178 mg/dL) and check blood pressure."
+    },
+    {
+      "id": "apt_2",
+      "familyMemberId": "fam_2",
+      "doctorId": "doc_3",
+      "doctorName": "Dr. Sunita Sharma, MD",
+      "hospital": "Metro Health Endocrinology Center",
+      "date": "2026-11-25",
+      "time": "02:00 PM",
+      "purpose": "Sarah Morgan - Quarterly Diabetic Review & HbA1c Evaluation",
+      "status": "upcoming",
+      "notes": "Bring 14-day glucometer reading logs."
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem_1",
+      "familyMemberId": "fam_1",
+      "title": "Evening Medication: Atorvastatin 10mg",
+      "type": "medicine",
+      "dueDate": "2026-11-05",
+      "dueTime": "22:00",
+      "status": "pending",
+      "description": "Take 1 tablet at bedtime with a full glass of water."
+    },
+    {
+      "id": "rem_2",
+      "familyMemberId": "fam_1",
+      "title": "Dr. Elena Vance Cardiology Appointment",
+      "type": "appointment",
+      "dueDate": "2026-11-18",
+      "dueTime": "10:30",
+      "status": "pending",
+      "description": "In-person consultation at City Central Health Clinic."
+    },
+    {
+      "id": "rem_3",
+      "familyMemberId": "fam_1",
+      "title": "Atorvastatin Refill Needed",
+      "type": "refill",
+      "dueDate": "2026-11-12",
+      "dueTime": "09:00",
+      "status": "pending",
+      "description": "18 doses remaining in your current bottle. Refill at Walgreens."
+    },
+    {
+      "id": "rem_4",
+      "familyMemberId": "fam_1",
+      "title": "Routine HbA1c & Fasting Glucose Screening",
+      "type": "test",
+      "dueDate": "2026-12-05",
+      "dueTime": "08:00",
+      "status": "pending",
+      "description": "Doctor recommended 6-month preventive metabolic screen."
+    }
+  ],
+  "healthMetrics": [
+    {
+      "id": "hm_1",
+      "familyMemberId": "fam_1",
+      "date": "2026-01-15",
+      "type": "weight",
+      "value": 66.2,
+      "unit": "kg"
+    },
+    {
+      "id": "hm_2",
+      "familyMemberId": "fam_1",
+      "date": "2026-04-22",
+      "type": "weight",
+      "value": 65,
+      "unit": "kg"
+    },
+    {
+      "id": "hm_3",
+      "familyMemberId": "fam_1",
+      "date": "2026-07-28",
+      "type": "weight",
+      "value": 64.2,
+      "unit": "kg"
+    },
+    {
+      "id": "hm_4",
+      "familyMemberId": "fam_1",
+      "date": "2026-10-15",
+      "type": "weight",
+      "value": 64,
+      "unit": "kg"
+    },
+    {
+      "id": "hm_5",
+      "familyMemberId": "fam_1",
+      "date": "2026-01-15",
+      "type": "bp_systolic",
+      "value": 124,
+      "unit": "mmHg"
+    },
+    {
+      "id": "hm_6",
+      "familyMemberId": "fam_1",
+      "date": "2026-01-15",
+      "type": "bp_diastolic",
+      "value": 82,
+      "unit": "mmHg"
+    },
+    {
+      "id": "hm_7",
+      "familyMemberId": "fam_1",
+      "date": "2026-07-28",
+      "type": "bp_systolic",
+      "value": 118,
+      "unit": "mmHg"
+    },
+    {
+      "id": "hm_8",
+      "familyMemberId": "fam_1",
+      "date": "2026-07-28",
+      "type": "bp_diastolic",
+      "value": 78,
+      "unit": "mmHg"
+    },
+    {
+      "id": "hm_9",
+      "familyMemberId": "fam_1",
+      "date": "2026-01-15",
+      "type": "blood_glucose",
+      "value": 92,
+      "unit": "mg/dL"
+    },
+    {
+      "id": "hm_10",
+      "familyMemberId": "fam_1",
+      "date": "2026-07-28",
+      "type": "blood_glucose",
+      "value": 89,
+      "unit": "mg/dL"
+    },
+    {
+      "id": "hm_11",
+      "familyMemberId": "fam_1",
+      "date": "2026-02-18",
+      "type": "cholesterol",
+      "value": 228,
+      "unit": "mg/dL"
+    },
+    {
+      "id": "hm_12",
+      "familyMemberId": "fam_1",
+      "date": "2026-07-28",
+      "type": "cholesterol",
+      "value": 178,
+      "unit": "mg/dL"
+    }
+  ],
+  "chatHistory": [
+    {
+      "id": "msg_welcome",
+      "sender": "assistant",
+      "text": "Hello Alex! I am MediVault Assistant. I have indexed your medical vault including your CBC hematology sequence (Jan, Apr, Aug 2026), your Lipid panels, prescriptions from Dr. Elena Vance, and current medications. How can I help you understand your health records today?",
+      "timestamp": "2026-11-05T07:30:00Z"
+    }
+  ],
+  "language": "en",
+  "theme": "light"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MediVault AI",
+  "description": "Intelligent personal medical records vault, AI report analyzer, health tracker, and prescription management platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
